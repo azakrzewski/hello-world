@@ -9,5 +9,5 @@ if [ -n "$KOKORO_ARTIFACTS_DIR" ]; then
 fi
 
 mkdir -p test_logs
-cp kokoro/log.xml > test_logs
+cp kokoro/log.xml test_logs
 
