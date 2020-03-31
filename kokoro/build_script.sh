@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "hello world"
+echo "*** build ***"
 find .
 
 if [ -n "$KOKORO_ARTIFACTS_DIR" ]; then
