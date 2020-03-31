@@ -11,3 +11,5 @@ echo "*** build ***"
 mkdir -p test_logs
 cp kokoro/log.xml test_logs/build_sponge_log.xml
 
+echo '** KOKORO_ARTIFACTS_DIR **'
+find "${KOKORO_ARTIFACTS_DIR}"
