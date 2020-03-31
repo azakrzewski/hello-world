@@ -9,5 +9,5 @@ fi
 echo "*** e2e tests ***"
 
 mkdir -p test_logs
-cp kokoro/log.xml test_logs
+cp kokoro/log.xml test_logs/e2e_tests_sponge_log.xml
 
